@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bigg Apple Adventure Squad</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Bigg Apple Adventure Squad</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Our Adventures</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We specialize in organizing outdoor adventures, from hiking to rafting, camping to snowboarding. Join us for your next adventure!</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Adventures</h2>
+        <ul>
+            <li>Hiking Trips</li>
+            <li>Camping Getaways</li>
+            <li>White Water Rafting</li>
+            <li>Snowboarding & Skiing</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or ready to book your adventure? Reach out to us!</p>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email">
+            <input type="submit" value="Contact Us">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Bigg Apple Adventure Squad</p>
+    </footer>
+</body>
+</html>
