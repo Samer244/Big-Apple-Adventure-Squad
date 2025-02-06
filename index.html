@@ -3,50 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bigg Apple Adventure Squad</title>
+    <meta name="description" content="Big Apple Adventure Squad - Adventure trips like hiking, camping, rafting, and more!">
+    <title>Big Apple Adventure Squad</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <h1>Welcome to Bigg Apple Adventure Squad</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Our Adventures</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Big Apple Adventure Squad</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We specialize in organizing outdoor adventures, from hiking to rafting, camping to snowboarding. Join us for your next adventure!</p>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Explore the Great Outdoors</h2>
+            <p>Join us for hiking, camping, rafting, and more!</p>
+            <a href="#contact" class="btn">Book Your Adventure</a>
+        </div>
     </section>
 
-    <section id="services">
-        <h2>Our Adventures</h2>
-        <ul>
-            <li>Hiking Trips</li>
-            <li>Camping Getaways</li>
-            <li>White Water Rafting</li>
-            <li>Snowboarding & Skiing</li>
-        </ul>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We organize thrilling outdoor adventures in the heart of nature. From hiking in the mountains to rafting on wild rivers, we offer unforgettable experiences for adventure seekers!</p>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Have questions or ready to book your adventure? Reach out to us!</p>
-        <form action="#" method="post">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name">
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email">
-            <input type="submit" value="Contact Us">
-        </form>
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Hiking</h3>
+                <p>Join our guided hiking trips to explore breathtaking landscapes and enjoy nature.</p>
+            </div>
+            <div class="service">
+                <h3>Camping</h3>
+                <p>Experience the great outdoors with our camping trips, perfect for all levels.</p>
+            </div>
+            <div class="service">
+                <h3>Rafting</h3>
+                <p>Get your adrenaline pumping with our rafting adventures on wild rivers!</p>
+            </div>
+            <div class="service">
+                <h3>Ski Boarding</h3>
+                <p>Hit the slopes for an exciting ski boarding experience with our expert guides.</p>
+            </div>
+        </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Ready for your next adventure? Get in touch with us today!</p>
+            <a href="mailto:info@bigappleadventures.com" class="btn">Email Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Bigg Apple Adventure Squad</p>
+        <div class="container">
+            <p>&copy; 2025 Big Apple Adventure Squad. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
